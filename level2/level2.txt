@@ -1,0 +1,83 @@
+JavaScript MA04
+----------------
+Level 2
+
+1. What is the DOM?
+The DOM stands for Document Object Model and is the model of the document that
+forms the current webpage. If you want to access any element in an HTML page,
+you always start with accessing the document object. You can use the document
+object to access and manipulate HTML.
+
+
+
+
+02. List three methods to manipulate the DOM.
+
+01. Finding HTML Elements by Tag Name :
+document.getElementsByTagName ();
+
+02. Finding HTML Elements by CSS Selectors :
+document.querySelectorAll ();
+
+03. Finding HTML Element by Id :
+document.getElementById ();
+
+
+
+
+03. What is an asynchronous call?
+With an asynchronous call you can do multiple things at a time. Your call will
+be sent to a queue and pushed up to the call stack when the call stack is empty.
+
+
+
+
+04. Briefly explain what the sources tab in Chromes Developers Tools does.
+The sources tab in Chromes Developers Tools allows you to open your files
+so you can debug your code. Here you can set breakpoints so you can go into your
+code, step over functions, step into functions or step out of functions.
+
+
+
+
+05. What is a JavaScript promise?
+A JavaScript promise is a way to execute code asynchronously, which means that
+when we call a promise our code doesn´t wait for a response, but moves on to the
+next line of code. A promise can only succeed or fail once. It cannot succeed or
+fail twice, neither can it switch from success to failure or vice versa.
+
+A promise can be :
+01. Fulfilled; The action relating to the promise succeeded.
+02. Rejected; The action relating to the promise failed.
+03. Pending; Hasn´t fulfilled or rejected yet.
+04. Settled; Has fulfilled or rejected.
+
+
+
+
+06. What is an API?
+An API (Application Programming Interface) provides a way to communicate with
+other software.
+
+
+
+
+07. What is a JavaScript Event?
+JavaScript´s interaction with HTML is handled through events.
+A JavaScript event is when an event is triggered either by the browser or when a
+user interacts with an element on a webpage. When these events are fired off,
+JavaScript allows us to do something. Examples of events; When the page loads,
+when the user clicks the mouse over a certain element or hovers the cursor over
+a certain element, a form being submitted, pressing any key, closing a window or resizing a
+window, a video being played, paused or finished playing or an error occurring.
+
+
+
+
+08. What is event bubbling?
+Events can bubble up to its parent´s events, fire off unwanted events and
+applications will become unstable.
+A click on an image does not only generate a click event for the corresponding
+IMG element, but also for the parent A, for the grandfather LI and so on, going
+all the way up through all the element´s ancestors, before terminating at the
+window object. You can stop the event bubbling by using the stopPropagation method.
