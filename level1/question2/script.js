@@ -1,8 +1,6 @@
 // Using promises to make the API call.
 //Loop through the result using a for loop.
 //Inside the for loop, use innerHTML to create the cards.
-document.getElementById('getJson').addEventListener
-('click', getJson);
 
 function getJson() {
     fetch('https://jsonplaceholder.typicode.com/todos')
@@ -22,3 +20,4 @@ function getJson() {
     document.getElementById('output').innerHTML = output;
   })
 }
+getJson();
